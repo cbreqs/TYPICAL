@@ -2,8 +2,8 @@ import type {Metadata} from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'TypicalLanding',
-  description: 'A modern and approachable landing page.',
+  title: 'Typical Solutions',
+  description: 'The sexiest of all the solutions!',
 };
 
 export default function RootLayout({

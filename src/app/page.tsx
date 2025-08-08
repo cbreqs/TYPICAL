@@ -138,10 +138,10 @@ export default function Home() {
     <div className="bg-background min-h-screen">
       <header className="py-12 px-4 md:px-8 text-center">
         <h1 className="font-headline text-5xl md:text-7xl font-bold text-foreground">
-          TypicalLanding
+          Typical Solutions
         </h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          Your modern and approachable space on the web.
+          A landing page for the soul.
         </p>
       </header>
 
@@ -167,7 +167,7 @@ export default function Home() {
                   ></iframe>
                 </div>
                 <p className="mt-2 text-xs text-muted-foreground">
-                  To embed your calendar, go to your Google Calendar settings, find the "Integrate calendar" section, and copy the "Embed code" content. Then, replace the `src` attribute in the code with your calendar's URL.
+                  Schedule an appointment with us!
                 </p>
               </CardContent>
             </Card>
@@ -180,13 +180,13 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <div className="flex justify-center gap-6">
-                    <a href="#" className="text-primary hover:text-primary/80">
+                    <a href="https://www.facebook.com/reqsdottech" className="text-primary hover:text-primary/80">
                       <Facebook className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-primary hover:text-primary/80">
+                    <a href="https://www.instagram.com/mostlycourtney" className="text-primary hover:text-primary/80">
                       <Instagram className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-primary hover:text-primary/80">
+                    <a href="https://www.linkedin.com/in/not-a-meatball/" className="text-primary hover:text-primary/80">
                       <Linkedin className="w-6 h-6" />
                     </a>
                   </div>
@@ -202,15 +202,15 @@ export default function Home() {
               <CardContent className="space-y-4 text-foreground">
                 <div className="flex items-center gap-4">
                   <MapPin className="w-5 h-5 text-primary" />
-                  <span>123 Landing St, Webville, IN 46074</span>
+                  <span>117 Lexington St., Ste 100, Harrisonville, MO 64701</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Phone className="w-5 h-5 text-primary" />
-                  <span>(555) 123-4567</span>
+                  <span>(816) 399-2288</span>
                 </div>
                 <div className="flex items-center gap-4">
                   <Mail className="w-5 h-5 text-primary" />
-                  <span>hello@typicallanding.com</span>
+                  <span>hello@typical.solutions</span>
                 </div>
               </CardContent>
             </Card>
@@ -334,7 +334,7 @@ export default function Home() {
 
       <footer className="text-center py-8 px-4 mt-8">
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} TypicalLanding. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Typical LLC. All Rights Reserved.
         </p>
       </footer>
 
