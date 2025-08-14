@@ -157,7 +157,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <div className="aspect-w-16 aspect-h-9">
-                 <iframe src="https://calendar.google.com/calendar/embed?src=c_2f568a2e0f60232844e93bce90b2754b9ab57ba53f2727f999d1513ecbd6baa6%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                 ...
                 <p className="mt-2 text-xs text-muted-foreground">
                   Schedule an appointment with us!
                 </p>
