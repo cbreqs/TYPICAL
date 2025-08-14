@@ -157,7 +157,15 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <div className="aspect-w-16 aspect-h-9">
-                 ...
+                {/* Google Calendar Appointment Scheduling begin */}
+                  <iframe
+                    src="https://calendar.google.com/calendar/appointments/schedules/AcZssZ2xzipfGm6IdpYHfwcz9DKflzpXrdUtWbsBmn_trBJ2_OkQL7p2GxZcz4IE_DYE2DLM4yp6dcU2?gv=true"
+                    style={{ border: 0 }}
+                    width="100%"
+                    height="600"
+                    frameBorder="0"
+                  ></iframe>
+                  {/* end Google Calendar Appointment Scheduling */}
                 <p className="mt-2 text-xs text-muted-foreground">
                   Schedule an appointment with us!
                 </p>
