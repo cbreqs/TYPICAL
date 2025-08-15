@@ -152,7 +152,7 @@ export default function Home() {
             <Card className="shadow-lg rounded-xl overflow-hidden">
               <CardHeader>
                 <CardTitle className="font-headline text-2xl">
-                  Our Calendar
+                  Calendar
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -167,7 +167,7 @@ export default function Home() {
                   ></iframe>
                   {/* end Google Calendar Appointment Scheduling */}
                 <p className="mt-2 text-xs text-muted-foreground">
-                  Schedule an appointment with us!
+                  Let's talk about how we can automate the tedium out of your workflow!
                 </p>
               </CardContent>
             </Card>
